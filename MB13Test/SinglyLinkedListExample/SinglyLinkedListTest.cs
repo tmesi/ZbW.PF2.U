@@ -1,4 +1,4 @@
-﻿using MB13.Loesung.SinglyLinkedListExample;
+﻿using MB13.SinglyLinkedListExample;
 using System.Collections.Generic;
 using System.Diagnostics;
 
@@ -25,6 +25,7 @@ namespace MB13Test.SinglyLinkedListExample
       startNode.Data = "zero";
       var list = new SinglyLinkedList();
       list.Add(startNode);
+
       // act
       var count = list.Count;
 
